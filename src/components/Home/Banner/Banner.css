@@ -9,15 +9,19 @@
 .color{
     color: rgb(255, 4, 4);
 }
+.bgColor{
+    background-color: rgb(255, 4, 4);
+}
 
 .button{
     background-color: rgb(255, 4, 4);
-    border-radius: 30px;
+    border-radius: 40px;
     padding: 10px 25px;
     text-decoration: none;
     font-size: 17px;
     font-weight: 600;
     color: white;
+    border: none;
 }
 .hireme-btn{
     border: 2px solid white;
