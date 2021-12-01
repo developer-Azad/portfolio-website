@@ -7,7 +7,9 @@ const MySkill = ({skill}) => {
     const {name} = skill;
     return (
         <Grid className="skills" item xs={12} sm={6} md={4} lg={3}>
-        <div className="skill">{name}</div>
+        <div className="skill">
+            <p>{name}</p>
+        </div>
         </Grid>
     );
 };
