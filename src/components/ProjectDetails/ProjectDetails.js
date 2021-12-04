@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router';
+import './ProjectDetails.css';
 
 const ProjectDetails = () => {
     const {projectId} = useParams();
@@ -16,7 +17,14 @@ const ProjectDetails = () => {
 
     return (
         <div>
-            <h2>Project Name : {project?.name}</h2>
+            <div className="orders-container">
+                    <img width="90%" src={project?.image} alt="" />
+                    <div>
+                    <h1 className="project-name">{project?.name}</h1>
+                    <p>{project?.description}</p>
+                    </div>
+               
+            </div>
         </div>
     );
 };

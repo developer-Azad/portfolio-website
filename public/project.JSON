@@ -3,14 +3,17 @@
       "id": 1,
       "url": "https://jk-bike-galary.web.app/",
       "name": "JK-Bike Galary",
-      "client": "",
-      "server": "",
-      "description": ""
+      "image": "https://i.ibb.co/4NrLsJJ/jk-bike.png",
+      "client": "https://github.com/developer-Azad/jk-bike-world",
+      "server": "https://github.com/developer-Azad/jk-bike-world-server-side",
+      "description": "Users can see product details and can place an order with the address after logging in. Can remove an order also can leave a review with dynamic rating.An admin can add a new product and make another user an admin, Also can remove an existing product and can manage all orders. Complete authentication system with Firebase. Email-password-based register system also login system with Google. Different dashboard functionality for admin and user.",
+      "Technology" : "HTML, Bootstrap, CSS, JavaScript, React.js, Node.js, Espress.js, MongoDB, Firebase, Heroku, Hook form, Axios."
     },
     {
       "id": 2,
-      "url": "https://world-tourism-a95bc.web.app/",
+      "url": "https://i.ibb.co/yYJwhHC/tourism.png",
       "name": "Tourism Agency",
+      "image": "https://i.ibb.co/KLHMNTg/tourism.png",
       "client": "",
       "server": "",
       "description": ""
@@ -19,6 +22,7 @@
       "id": 3,
       "url": "https://healthcare-center-b7049.web.app/",
       "name": "Good Health Hospital",
+      "image": "https://i.ibb.co/C6KqTMg/hospital.png",
       "client": "",
       "server": "",
       "description": ""

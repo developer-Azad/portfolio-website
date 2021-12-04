@@ -4,7 +4,7 @@ import { useHistory } from 'react-router';
 import './Myproject.css'
 
 const MyProject = ({project}) => {
-   const {id, url, name, description} = project;
+   const {id, url, name, description, image} = project;
    const history = useHistory();
 
    const handleDetails = () => {
@@ -12,12 +12,12 @@ const MyProject = ({project}) => {
    }
 
     return (
-        <Grid  item xs={12} sm={12} md={6} lg={4}>
-      <Card sx={{ height: '100%'}}>
+        <Grid  item xs={12} sm={12} md={6} lg={4} sx={{height: '500px'}}>
+      <Card sx={{ height: '100%', paddingTop: '30px'}}>
       <CardMedia
         component="img"
         margin="10"
-        image={url}
+        image={image}
         alt="green iguana"
       />
       <CardContent>
@@ -29,9 +29,11 @@ const MyProject = ({project}) => {
           {description}
         </Typography>
       </CardContent>
-    <Grid  className="buy-btn">
-    <Button><a className="button" href={url} target="blank">Live Side</a></Button>
-        <Button className="detail-btn" onClick={handleDetails}>Details</Button>
+    <Grid >
+    <div  className="buttons">
+    <Button><a className=" btn" href={url} target="blank">Live Side</a></Button>
+        <Button ><p className=" btn" onClick={handleDetails}>Details</p></Button>
+    </div>
         </Grid>
     </Card>
     </Grid>

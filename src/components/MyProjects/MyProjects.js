@@ -11,33 +11,6 @@ const MyProjects = () => {
         .then(data => setProjects(data))
        }, [])
 
-    // const projects = [
-    //     {
-    //     id: '1',
-    //     url: 'https://jk-bike-galary.web.app/',
-    //     name: 'JK-Bike Galary',
-    //     client: '',
-    //     server: '',
-    //     description: ''
-    // },
-    //     {
-    //     id: '2',
-    //     url: 'https://world-tourism-a95bc.web.app/',
-    //     name: 'Tourism Agency',
-    //     client: '',
-    //     server: '',
-    //     description: ''
-    // },
-    //     {
-    //     id: '3',
-    //     url: 'https://healthcare-center-b7049.web.app/',
-    //     name: 'Good Health Hospital',
-    //     client: '',
-    //     server: '',
-    //     description: ''
-    // }
-    // ]
-
     return (
         <div>
           <Typography sx={{ marginBottom: "15px", fontSize: '35px', fontWeight: 'bolder', textAlign: 'center', padding: '30px' }}>My <span className="color">Projects</span></Typography>
