@@ -6,7 +6,7 @@
       "image": "https://i.ibb.co/4NrLsJJ/jk-bike.png",
       "client": "https://github.com/developer-Azad/jk-bike-world",
       "server": "https://github.com/developer-Azad/jk-bike-world-server-side",
-      "description": "Users can see product details and can place an order with the address after logging in. Can remove an order also can leave a review with dynamic rating.An admin can add a new product and make another user an admin, Also can remove an existing product and can manage all orders. Complete authentication system with Firebase. Email-password-based register system also login system with Google. Different dashboard functionality for admin and user.",
+      "description": "This is a MERN stack website. In this website Users can see product details and can place an order with the address after logging in. Can remove an order also can leave a review with dynamic rating.An admin can add a new product and make another user an admin, Also can remove an existing product and can manage all orders. Complete authentication system with Firebase. Email-password-based register system also login system with Google. Different dashboard functionality for admin and user.",
       "Technology" : "HTML, Bootstrap, CSS, JavaScript, React.js, Node.js, Espress.js, MongoDB, Firebase, Heroku, Hook form, Axios."
     },
     {
@@ -16,7 +16,7 @@
       "image": "https://i.ibb.co/KLHMNTg/tourism.png",
       "client": "https://github.com/developer-Azad/world-tourism-client-side",
       "server": "https://github.com/developer-Azad/world-tourism-server-side",
-      "description": "A complete login system with Google login. Users can add services after login. A user can book any service, can remove or confirm any booked service, and is also able to manage all orders. ",
+      "description": "This is a MERN stack website. Here contructed A complete login system with Google login. Users can add services after login. A user can book any service, can remove or confirm any booked service, and is also able to manage all orders. ",
       "Technology" : "HTML, CSS, Bootstrap, JavaScript, React.js, React Hook, Node.js, Espress.js, MongoDB, Firebase."
     },
     {

@@ -12,7 +12,7 @@ const MyProject = ({project}) => {
    }
 
     return (
-        <Grid  item xs={12} sm={12} md={6} lg={4} sx={{height: '500px'}}>
+        <Grid  item xs={12} sm={12} md={6} lg={4}>
       <Card sx={{ height: '100%', paddingTop: '30px'}}>
       <CardMedia
         component="img"
@@ -26,7 +26,7 @@ const MyProject = ({project}) => {
         </Typography>
         
         <Typography variant="body2">
-          {description}
+          {description.slice(0, 150)}
         </Typography>
       </CardContent>
     <Grid >

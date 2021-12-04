@@ -5,7 +5,7 @@ import React from 'react';
 const AboutMe = () => {
     return (
         <div style={{backgroundColor: 'skyblue', padding: '30px'}}>
-             <Typography sx={{ marginBottom: "15px", fontSize: '35px', fontWeight: 'bolder', padding: '30px' }}><span className="color">About</span> Me </Typography>
+             <Typography sx={{textAlign: 'center', marginBottom: "15px", fontSize: '35px', fontWeight: 'bolder', padding: '30px' }}><span className="color">About</span> Me </Typography>
             <Typography sx={{fontSize: '15px', marginLeft: '10%'}}>I am very interested and dedicated to my work. I like to learn something new and want to make me perfect
                     in the web development. I am a hard-working and fast learner with a good communication skills.
                     <p>I can build websites with following technologies:</p>

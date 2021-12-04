@@ -111,8 +111,9 @@ const Navigation = () => {
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
-              </Button>
+              </Button>              
             ))}
+            <Button to="/contactMe" sx={{color: 'white'}}>Klaam</Button>
             <Button><a className="button" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
           </Box>
 

@@ -4,6 +4,7 @@ import Home from './components/Home/Home/Home';
 import AboutMe from './components/Home/AboutMe/AboutMe';
 import Navigation from './components/Shared/Navigation/Navigation';
 import ProjectDetails from './components/ProjectDetails/ProjectDetails';
+import ContactMe from './components/ContactMe/ContactMe';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </Route>
       <Route path="/aboutme">
         <AboutMe></AboutMe>
+        </Route>
+      <Route path="/contactMe">
+        <ContactMe></ContactMe>
         </Route>
       <Route path="/projectDetails/:projectId">
         <ProjectDetails></ProjectDetails>
