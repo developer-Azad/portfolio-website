@@ -3,17 +3,20 @@ import { useParams } from 'react-router';
 
 const ProjectDetails = () => {
     const {projectId} = useParams();
-    const [project, setProject] = useState();
+    const [projects, setProjects] = useState([]);
 
     useEffect(() => {
 
-        fetch(`http://localhost:3000/projectDetails/${projectId}`)
+        fetch('/project.JSON')
         .then(res => res.json())
-        .then(data => setProject(data))
-    }, [projectId]) 
+        .then(data => setProjects(data))
+    }, []) 
+
+    const project = projects.find(project => project.id === parseInt(projectId))
+
     return (
         <div>
-            <h2>Project Details</h2>
+            <h2>Project Name : {project?.name}</h2>
         </div>
     );
 };

@@ -27,13 +27,13 @@ const ContactMe = () => {
                 <h5><span style={{ fontWeight: 'bolder', fontSize: '150%' }}>Find me on</span> Social media or <br /> send me a message.</h5><br />
 
                 <div>
-                <a href="https://www.facebook.com/profile.php?id=100006979148737" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
+                <a href="https://www.facebook.com/abul.abul.712161" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
                         <FaFacebook className="icon" style={{ fontSize: '30px', marginRight: '10px' }} />
                     </a>
-                    <a target="_blank" href="https://github.com/mahfuz42726" rel="noreferrer" style={{ color: 'white' }}>
+                    <a target="_blank" href="https://github.com/developer-Azad" rel="noreferrer" style={{ color: 'white' }}>
                         <FaGithub className="icon" style={{ fontSize: '30px', marginRight: '10px' }} />
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/md-mahmudul-hasan-171398227/" rel="noreferrer" style={{ color: 'white' }}>
+                    <a target="_blank" href="https://www.linkedin.com/in/abul-kalam-azad-837151227/" rel="noreferrer" style={{ color: 'white' }}>
                         <FaLinkedinIn className="icon" style={{ fontSize: '30px', marginRight: '10px' }} />
                     </a>
                    
