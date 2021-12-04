@@ -14,17 +14,19 @@
       "url": "https://i.ibb.co/yYJwhHC/tourism.png",
       "name": "Tourism Agency",
       "image": "https://i.ibb.co/KLHMNTg/tourism.png",
-      "client": "",
-      "server": "",
-      "description": ""
+      "client": "https://github.com/developer-Azad/world-tourism-client-side",
+      "server": "https://github.com/developer-Azad/world-tourism-server-side",
+      "description": "A complete login system with Google login. Users can add services after login. A user can book any service, can remove or confirm any booked service, and is also able to manage all orders. ",
+      "Technology" : "HTML, CSS, Bootstrap, JavaScript, React.js, React Hook, Node.js, Espress.js, MongoDB, Firebase."
     },
     {
       "id": 3,
       "url": "https://healthcare-center-b7049.web.app/",
       "name": "Good Health Hospital",
       "image": "https://i.ibb.co/C6KqTMg/hospital.png",
-      "client": "",
+      "client": "https://github.com/developer-Azad/good-health-hospital",
       "server": "",
-      "description": ""
+      "description": "A complete register system with Email-password and login system with Google and email-password. Every service is under a private route. Users can see service detail after login. Once a user logged in, he could see the log-out button and his user name on the navbar.",
+      "Technology" : "HTML, CSS, Bootstrap, JavaScript, React.js, React Hook, Firebase."
     }
   ]
