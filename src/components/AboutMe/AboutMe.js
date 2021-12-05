@@ -1,10 +1,11 @@
 import { Typography } from '@mui/material';
 import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import React from 'react';
+import './AboutMe.css'
 
 const AboutMe = () => {
     return (
-        <div style={{backgroundColor: 'skyblue', padding: '30px'}}>
+        <div className="aboutme">
              <Typography sx={{textAlign: 'center', marginBottom: "15px", fontSize: '35px', fontWeight: 'bolder', padding: '30px' }}><span className="color">About</span> Me </Typography>
             <Typography sx={{fontSize: '15px', marginLeft: '10%'}}>I am very interested and dedicated to my work. I like to learn something new and want to make me perfect
                     in the web development. I am a hard-working and fast learner with a good communication skills.

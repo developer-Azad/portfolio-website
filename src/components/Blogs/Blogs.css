@@ -1,0 +1,7 @@
+.blogs-container{
+    display: flex;
+    background-color: turquoise;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}

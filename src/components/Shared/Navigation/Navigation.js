@@ -12,8 +12,8 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import { NavLink } from 'react-router-dom';
+import './Navigation.css'
 
-const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 
@@ -85,13 +85,18 @@ const Navigation = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
+              {/* {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                   
                 </MenuItem>
-              ))}  
-           <Button><a className="button" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
+              ))}   */}
+          <div className="link-small-container">
+          <Button ><NavLink to="/home" className="link-small">Home</NavLink></Button>
+          <Button ><NavLink to="/blogs" className="link-small">Blogs</NavLink></Button>
+            <Button ><NavLink to="/contactme" className="link-small">Contact Me</NavLink></Button>
+            <Button><a className="button" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
+          </div>
             </Menu>
             
           </Box>
@@ -104,7 +109,7 @@ const Navigation = () => {
             A.K.AZAD
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {/* {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -112,8 +117,9 @@ const Navigation = () => {
               >
                 {page}
               </Button>              
-            ))}
-            <Button to="/contactMe" sx={{color: 'white'}}>Klaam</Button>
+            ))} */}
+            <Button ><NavLink to="/blogs" className="link">Blogs</NavLink></Button>
+            <Button ><NavLink to="/contactme" className="link">Contact Me</NavLink></Button>
             <Button><a className="button" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
           </Box>
 
