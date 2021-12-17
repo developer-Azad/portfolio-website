@@ -25,8 +25,8 @@ const ProjectDetails = () => {
                     <Container><p>{project?.description}</p></Container>
                     </div>
                     <div  className="buttons" style={{paddingBottom: '30px'}}>
-    <Button><a className=" btn" href={project?.client} target="blank">Github Client</a></Button>
-        <Button ><a className=" btn" href={project?.server} target="blank">Github Server</a></Button>
+    <Button><a className="btn bgColor" href={project?.client} target="blank">Github Client</a></Button>
+        <Button ><a className="btn bgColor" href={project?.server} target="blank">Github Server</a></Button>
     </div>
                
             </div>

@@ -85,17 +85,12 @@ const Navigation = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {/* {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                  
-                </MenuItem>
-              ))}   */}
+              
           <div className="link-small-container">
           <Button ><NavLink to="/home" className="link-small">Home</NavLink></Button>
           <Button ><NavLink to="/blogs" className="link-small">Blogs</NavLink></Button>
             <Button ><NavLink to="/contactme" className="link-small">Contact Me</NavLink></Button>
-            <Button><a className="button" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
+            <Button><a className="button bgColor" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
           </div>
             </Menu>
             
@@ -109,18 +104,9 @@ const Navigation = () => {
             A.K.AZAD
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {/* {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>              
-            ))} */}
             <Button ><NavLink to="/blogs" className="link">Blogs</NavLink></Button>
             <Button ><NavLink to="/contactme" className="link">Contact Me</NavLink></Button>
-            <Button><a className="button" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
+            <Button><a className="button bgColor" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
@@ -150,7 +136,7 @@ const Navigation = () => {
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
-              <Button><a className="button" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
+              <Button><a className="button bgColor" href="https://drive.google.com/file/d/1UHyU6MjwvH8xo01hk0tdVttEqqLdB2yO/view?usp=sharing" target="blank">Download Resume</a></Button>
             </Menu>
           </Box>
         </Toolbar>

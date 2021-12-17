@@ -1,7 +1,7 @@
 .contact-form{
     text-align: center;
-    background-color: #67defc;
-    padding: 30px 0px;
+    background-color: rgb(80, 80, 80);
+    padding: 80px 0px;
   }
 
 .form input{
@@ -23,4 +23,7 @@
 .contact-btn{
     margin: 30px;
     width: 20%;
+}
+.contact-btn:focus{
+    background-color: greenyellow;
 }

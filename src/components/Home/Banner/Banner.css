@@ -1,26 +1,27 @@
-.banner-img{
-    /* padding: 50px; */
+.bg-banner{
+    background-color: rgb(49, 49, 49);
 }
 .banner-img img{
     border-radius: 100%;
     width: 50%;
-    border: 15px solid rgb(255, 4, 4);
+    border: 15px solid rgb(6, 255, 255);
 }
+
 .color{
-    color: rgb(255, 4, 4);
+    color: rgb(6, 255, 255);
 }
+/* for button */
 .bgColor{
-    background-color: rgb(255, 4, 4);
+    background-color: rgb(6, 255, 255);
 }
 
 .button{
-    background-color: rgb(255, 4, 4);
     border-radius: 40px;
     padding: 10px 25px;
     text-decoration: none;
     font-size: 17px;
     font-weight: 600;
-    color: white;
+    color: rgb(10, 6, 240);
     border: none;
 }
 .hireme-btn{
@@ -31,4 +32,8 @@
     font-size: 17px;
     font-weight: 600;
     text-decoration: none;
+}
+
+.body{
+    background-color: black;
 }

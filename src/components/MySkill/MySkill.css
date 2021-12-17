@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(72, 248, 72);
+    background-color: rgb(207, 72, 248);
     color: white;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border: 10px solid rgb(255, 4, 4);
+    border: 15px solid rgb(6, 255, 255);
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -15,11 +15,10 @@
     transition: background-color 2s, font-size 2s, border 2s, color 2s, transform 2s;
 }
 .skill:hover{
-    background-color: rgb(255, 4, 4);
-    color: rgb(71, 212, 255);
+    background-color: rgb(4, 255, 255);
     font-size: 30px;
-    border: 10px solid rgb(72, 248, 72);
-    transform: rotate(360deg);
+    border: 15px solid rgb(255, 2, 129);
+    color: black;
 }
 .skills{
     display: flex;

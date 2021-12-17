@@ -12,11 +12,13 @@ const MyProject = ({project}) => {
    }
 
     return (
-        <Grid  item xs={12} sm={12} md={6} lg={4}>
+        <Grid sx={{marginTop: '30px'}} item xs={12} sm={12} md={6} lg={4}>
       <Card sx={{ height: '100%', paddingTop: '30px'}}>
       <CardMedia
+      className="cardMedia"
         component="img"
         margin="10"
+        // height="250"
         image={image}
         alt="green iguana"
       />
@@ -31,8 +33,8 @@ const MyProject = ({project}) => {
       </CardContent>
     <Grid >
     <div  className="buttons">
-    <Button><a className=" btn" href={url} target="blank">Live Side</a></Button>
-        <Button ><p className=" btn" onClick={handleDetails}>Details</p></Button>
+    <Button><a className="btn bgColor" href={url} target="blank">Live Side</a></Button>
+        <Button ><p className="btn bgColor" onClick={handleDetails}>Details</p></Button>
     </div>
         </Grid>
     </Card>
