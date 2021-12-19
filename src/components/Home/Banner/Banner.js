@@ -2,7 +2,7 @@ import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import image from '../../../images/profile.jpg';
+import image from '../../../images/kk.png';
 import Typewriter from 'typewriter-effect';
 import './Banner.css'
 
